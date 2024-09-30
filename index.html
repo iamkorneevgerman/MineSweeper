@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>MineSweeper Game | German Korneev</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>MineSweeper</h1>
+    <div class="game-controls">
+        <label for="difficulty">Complexity:</label>
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <button id="startButton">Start the game</button>
+    </div>
+    <div class="status-bar">
+        <div id="minesLeft">Minutes remaining: 10</div>
+        <div id="timer">Time: 0s</div>
+    </div>
+    <div class="game-container">
+        <table id="grid"></table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
